@@ -1,0 +1,22 @@
+#top-category{
+    min-height: 50vh;
+}
+#top-category .container{
+    display: flex;
+    flex-direction: column;
+}
+/* start top category carousel */
+.top-cat-item{
+    margin: 5px !important;
+    padding: 18px;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.top-cat-item img{
+    width: 100%;
+}
+/* end top category carousel */

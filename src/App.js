@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import FlashDeals from "./components/FlashDeals";
+import TopCategory from "./components/TopCategory";
+import Arrivals from "./components/Arrivals";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/flashdeals" element={<FlashDeals />}></Route>
+          <Route path="/topcategories" element={<TopCategory />}></Route>
+          <Route path="/arrivals" element={<Arrivals />}></Route>
+          <Route path="/" element={<Navigate to="/home" />}></Route>
+        </Routes>
+      </Router>
+    </Fragment>
   );
 }
 

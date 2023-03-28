@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img":"Assets/images/SlideCard/slide-1.png",
+        "title": "50% Off For Your First Shopping",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis."
+    },
+    {
+        "id": 2,
+        "img":"Assets/images/SlideCard/slide-2.png",
+        "title": "50% Off For Your First Shopping",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis."
+    },
+    {
+        "id": 3,
+        "img":"Assets/images/SlideCard/slide-3.png",
+        "title": "50% Off For Your First Shopping",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis."
+    },
+    {
+        "id": 4,
+        "img":"Assets/images/SlideCard/slide-4.png",
+        "title": "50% Off For Your First Shopping",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis."
+    }
+]

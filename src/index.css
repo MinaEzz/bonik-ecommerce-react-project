@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* global rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0 !important;
+}
+:root{
+    --pink-color: #e94560;
+    --blue-color: #0f3460;
+    --theme-color: #f6f9fc;
+    --gray-color:#adb5bd;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    background-color: var(--theme-color) !important;
+    overflow-x: hidden;
+}
+.container{
+    margin: auto !important;
+}
+.row{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.col{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.pd-y{
+    padding: 40px 0 !important;
+}
+.mg-t{
+    margin-top: 40px !important;
+}
+.f-wth{
+    width: 100vw !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* section header */ 
+/* common in three sections */
+.section-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-header .header-title{
+    display: flex;
+    align-items: center;
+}
+.header-title .icon{
+    font-size: 32px;
+    margin-right: 5px !important;
+    color: var(--pink-color);
+}
+.header-title h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section-header a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--pink-color);
+}
+.section-header a:hover{
+    color: var(--pink-color);
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--pink-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }

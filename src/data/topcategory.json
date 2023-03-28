@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "image": "Assets/images/top/category-1.png"
+    },
+    {
+        "id": 2,
+        "image": "Assets/images/top/category-2.png"
+    },
+    {
+        "id": 3,
+        "image": "Assets/images/top/category-3.png"
+    }
+]

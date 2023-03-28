@@ -1,0 +1,57 @@
+[
+    {
+        "catId": 1,
+        "catImage":"Assets/images/category/cat1.png",
+        "catName": "fashion"
+    },
+    {
+        "catId": 2,
+        "catImage":"Assets/images/category/cat2.png",
+        "catName": "electoronic"
+    },
+    {
+        "catId": 3,
+        "catImage":"Assets/images/category/cat3.png",
+        "catName": "cars"
+    },
+    {
+        "catId": 4,
+        "catImage":"Assets/images/category/cat4.png",
+        "catName": "home & gardens"
+    },
+    {
+        "catId": 5,
+        "catImage":"Assets/images/category/cat5.png",
+        "catName": "gifts"
+    },
+    {
+        "catId": 6,
+        "catImage":"Assets/images/category/cat6.png",
+        "catName": "music"
+    },    
+    {
+        "catId": 7,
+        "catImage":"Assets/images/category/cat7.png",
+        "catName": "health & beauty"
+    },
+    {
+        "catId": 8,
+        "catImage":"Assets/images/category/cat8.png",
+        "catName": "pets"
+    },    
+    {
+        "catId": 9,
+        "catImage":"Assets/images/category/cat9.png",
+        "catName": "baby toys"
+    },
+    {
+        "catId":10,
+        "catImage":"Assets/images/category/cat10.png",
+        "catName": "groceries"
+    },
+    {
+        "catId":11,
+        "catImage":"Assets/images/category/cat11.png",
+        "catName": "books"
+    }
+]
