@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "mapple earphones",
+        "image": "Assets/images/shops/shops-1.png",
+        "price": 120,
+        "discount": "25% off"
+    },
+    {
+        "id": 2,
+        "name": "vivo android one",
+        "image": "Assets/images/shops/shops-2.png",
+        "price": 180,
+        "discount": "10% off"
+    },
+    {
+        "id": 3,
+        "name": "sony light",
+        "image": "Assets/images/shops/shops-3.png",
+        "price": 20,
+        "discount": "50% off"
+    },
+    {
+        "id": 4,
+        "name": "iphone",
+        "image": "Assets/images/shops/shops-4.png",
+        "price": 999,
+        "discount": "10% off"
+    },
+    {
+        "id": 5,
+        "name": "ceats wireless earphones",
+        "image": "Assets/images/shops/shops-5.png",
+        "price": 89,
+        "discount": "20% off"
+    },
+    {
+        "id": 6,
+        "name": "redmi phone",
+        "image": "Assets/images/shops/shops-6.png",
+        "price": 400,
+        "discount": "30% off"
+    },
+    {
+        "id": 7,
+        "name": "xeats bluetooth earphones",
+        "image": "Assets/images/shops/shops-7.png",
+        "price": 60,
+        "discount": "5% off"
+    },
+    {
+        "id": 8,
+        "name": "airpod",
+        "image": "Assets/images/shops/shops-8.png",
+        "price": 120,
+        "discount": "10% off"
+    },
+    {
+        "id": 9,
+        "name": "silver cap",
+        "image": "Assets/images/shops/shops-9.png",
+        "price": 5,
+        "discount": "2% off"
+    }
+]

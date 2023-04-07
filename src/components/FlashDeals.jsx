@@ -13,15 +13,14 @@ import flashdeals from "../data/flashdeals.json"
 import { Link } from 'react-router-dom';
 
 function FlashDeals() {
-
-      // flash mapping 
+      // flash item 
       const flashItem = flashdeals.map((flashItem)=>{
         return(
             <div className="flash-item" key={flashItem.id}>
             <Card className='card'>
                 <span className="discount badge">{flashItem.discount}</span>
                 <div className="card-img">
-                    <img src={flashItem.image} alt="flash product" draggable={false} width={314}height={306}/>
+                    <img src={flashItem.image} alt="flash product" draggable={false}/>
                 </div>
                 <div className='card-body'>
                     <div>
@@ -56,7 +55,6 @@ function FlashDeals() {
         }
       };
   return (
-    <>
     <section id='flash-deals' className='pd-y f-wth'>
         <div className="container">
             <div className="section-header">
@@ -75,7 +73,6 @@ function FlashDeals() {
         {/* ./flash-carousel */}
         </div>
     </section>
-    </>
   )
 }
 

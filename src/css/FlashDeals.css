@@ -9,53 +9,6 @@
 .flash-item{
     margin: 0 8px !important;
 }
-.card-img img{
-    width: 100%;
-}
-.flash-item .card{
-    min-height: 463px;
-    padding: 8px;
-    border-color: var(--gray-color);
-}
-.flash-item .card .discount{
-    width: fit-content;
-    color: #fff;
-    background-color: var(--pink-color);
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 5px !important;
-}
-.flash-item .card .card-body{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.flash-item .card .card-body .card-title{
-    color: #000;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 700;
-}
-.flash-item .card .card-body .price{
-    color: var(--pink-color);
-    font-weight: 900;
-    font-size: 18px;
-}
-.flash-item .card .card-body button{
-    background-color: #fff;
-    color: var(--pink-color);
-    border: 1px solid var(--gray-color);
-    transition: .3s ease;
-    -webkit-transition: .3s ease;
-    -moz-transition: .3s ease;
-    -ms-transition: .3s ease;
-    -o-transition: .3s ease;
-    padding: 4px !important;
-}
-.flash-item .card .card-body button:hover{
-    background-color: var(--pink-color);
-    color: #fff;
-}
 /* end flash carousel */
 
 /* animation */

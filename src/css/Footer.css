@@ -1,0 +1,37 @@
+#footer{
+    background-color: var(--blue-color);
+    color: #fff;
+}
+.footer-content .footer-logo,.about-us,.customer-care,.contact-us{
+    text-align: left;
+    padding: 6px !important;
+}
+.footer-content .about-us,.customer-care,.contact-us{
+    margin-left: 4px !important;
+    margin-top: 4px !important;
+}
+.footer-content p{
+    font-size: 16px;
+    text-align: justify;
+    color: #898989;
+}
+.footer-content h3{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer-content ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-content ul li{
+    color: #898989;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-bottom: 8px !important;
+    width: fit-content;
+}
+.footer-content ul li:last-child{
+    margin-bottom: 0 !important;
+}

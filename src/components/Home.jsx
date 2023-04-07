@@ -9,11 +9,14 @@ import { Carousel } from 'react-bootstrap'
 import FlashDeals from "./FlashDeals";
 import TopCategory from './TopCategory'
 import Arrivals from './Arrivals'
+import Wrapper from './Wrapper'
+import Discounts from './Discounts'
+import Banner from './Banner'
+import Shops from './Shops'
 
 
 function Home() {
-
-    // aside categories mapping 
+    // aside category item 
     const categoryItem = categories.map((category)=>{
         return( 
         <div className="category-item" key={category.catId} >
@@ -22,7 +25,7 @@ function Home() {
         </div>
         )
     })
-    // carousel mapping
+    // carousel item
     const carouselItem = slider.map((slide)=>{
         return (
             <Carousel.Item hidden={true} key={slide.id}>
@@ -61,6 +64,10 @@ function Home() {
     <FlashDeals />
     <TopCategory />
     <Arrivals />
+    <Discounts />
+    <Shops />
+    <Banner />
+    <Wrapper />
     </>
   )
 }

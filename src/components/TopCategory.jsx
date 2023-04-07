@@ -10,8 +10,7 @@ import topCategory from "../data/topcategory.json"
 import { Link } from 'react-router-dom';
 
 function TopCategory() {
-
-    // category mapping
+    // top category item
     const topCatItem = topCategory.map((category)=>{
         return (
             <div className="top-cat-item" key={category.id}>
@@ -39,7 +38,6 @@ function TopCategory() {
         }
       };
   return (
-    <>
     <section id='top-category' className='pd-y f-wth'>
         <div className="container">
             <div className="section-header">
@@ -50,7 +48,6 @@ function TopCategory() {
             <Link to="/topcategories">view all</Link>
             </div>
             {/* ./section-header */}
-
             <div className="top-cat-carousel mg-t">
                 <Carousel responsive={responsive}  infinite={true} swipeable={true}  showDots={true} autoPlay={true} autoPlaySpeed={2000} arrows={false} >
                     {topCatItem}
@@ -59,7 +56,6 @@ function TopCategory() {
             {/* ./top-cat-carousel */}
         </div>
     </section>
-    </>
   )
 }
 

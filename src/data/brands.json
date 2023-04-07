@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name": "apple",
+        "image": "Assets/images/brands/cat-1.png"
+    },
+    {
+        "id":2,
+        "name": "samsung",
+        "image": "Assets/images/brands/cat-2.png"
+    },
+    {
+        "id":3,
+        "name": "xiaomi",
+        "image": "Assets/images/brands/cat-1.png"
+    },
+    {
+        "id":4,
+        "name": "oppo",
+        "image": "Assets/images/brands/cat-2.png"
+    },
+    {
+        "id":5,
+        "name": "realme",
+        "image": "Assets/images/brands/cat-1.png"
+    },
+    {
+        "id":6,
+        "name": "vivo",
+        "image": "Assets/images/brands/cat-2.png"
+    },
+    {
+        "id":7,
+        "name": "sony",
+        "image": "Assets/images/brands/cat-1.png"
+    }
+]

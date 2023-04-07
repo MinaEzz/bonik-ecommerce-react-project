@@ -1,0 +1,13 @@
+#banner{
+    min-height: 40vh;
+}
+.banner-img img{
+    width: 100%;
+    cursor: pointer;
+}
+.banner-img:first-child{
+    margin-right: 5px !important;
+}
+.banner-img:last-child{
+    margin-left: 5px !important;
+}

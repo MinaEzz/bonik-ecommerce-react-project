@@ -49,24 +49,13 @@ function Header() {
               <input type="text" placeholder='search' />
             </div>
           </div>
-          <div className="col col-md-2 col-5 ">
+          <div className="col col-md-3 col-5 ">
             <div className="nav-icons ">
               <PersonIcon></PersonIcon>
               <ShoppingBagIcon></ShoppingBagIcon>
             </div>
           </div>
         </div>
-          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className='mt-3'></Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <div className="col col-12 mt-4">
-            <div className="nav nav-links bg-dark mt-3">
-                <HashLink className='nav-link' to={'#home'} smooth>home</HashLink>
-                <HashLink className='nav-link'  to={'#flash-deals'} smooth>flash deals</HashLink>
-                <HashLink className='nav-link' to={'#top-category'} smooth> top categories </HashLink>
-                <HashLink className='nav-link' to={'#arrivals'} smooth> arrivals </HashLink>
-            </div>
-          </div>
-            </Navbar.Collapse> */}
       </Container>
     </Navbar>
     {/* ./Navbar */}

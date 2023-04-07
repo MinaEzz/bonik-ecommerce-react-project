@@ -20,39 +20,7 @@
 .arrival-item{
     padding: 14px;
 }
-.arrival-item-img{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-.arrival-item-img img{
-    width: 100%;
-    border-radius: inherit;
-    -webkit-border-radius: inherit;
-    -moz-border-radius: inherit;
-    -ms-border-radius: inherit;
-    -o-border-radius: inherit;
-}
-.arrival-item-desc{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px !important;
-    text-transform: capitalize;
-}
-.arrival-item-desc h3{
-    font-size: 16px;
-    font-weight: 700;
-}
-.arrival-item-desc span{
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--pink-color);
-}
-
 /* animation */
-
 .arrival-item{
     animation: bounceInDown 4s;
     -webkit-animation: bounceInDown 4s;

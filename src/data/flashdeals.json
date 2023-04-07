@@ -32,6 +32,6 @@
         "name": "sun glasses",
         "image": "Assets/images/flash/flash-5.png",
         "price": 30,
-        "discount": "no discount"
+        "discount": "5%"
     }
 ]
