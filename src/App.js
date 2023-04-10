@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Header from "./components/Header";
+import Main from "./components/Main";
 import Home from "./components/Home";
 import FlashDeals from "./components/FlashDeals";
 import TopCategory from "./components/TopCategory";
@@ -20,13 +21,13 @@ function App() {
       <Router>
         <Header />
         <Routes>
+          <Route path="/" element={<Main />}></Route>
           <Route path="/home" element={<Home />}></Route>
           <Route path="/flashdeals" element={<FlashDeals />}></Route>
           <Route path="/topcategories" element={<TopCategory />}></Route>
           <Route path="/arrivals" element={<Arrivals />}></Route>
           <Route path="/discounts" element={<Discounts />}></Route>
           <Route path="/shops" element={<Shops />}></Route>
-          <Route path="/" element={<Navigate to="/home" />}></Route>
         </Routes>
         <Footer />
       </Router>

@@ -5,14 +5,6 @@ import categories from "../data/categories.json"
 import slider from "../data/slider.json"
 // bootstrap
 import { Carousel } from 'react-bootstrap'
-// components 
-import FlashDeals from "./FlashDeals";
-import TopCategory from './TopCategory'
-import Arrivals from './Arrivals'
-import Wrapper from './Wrapper'
-import Discounts from './Discounts'
-import Banner from './Banner'
-import Shops from './Shops'
 
 
 function Home() {
@@ -42,7 +34,6 @@ function Home() {
     })
     
   return (
-    <>
     <section id='home' className='pd-y f-wth'>
         <div className="container">
             <div className="row justify-content-between align-items-center">
@@ -61,14 +52,6 @@ function Home() {
             </div>
         </div>
     </section>
-    <FlashDeals />
-    <TopCategory />
-    <Arrivals />
-    <Discounts />
-    <Shops />
-    <Banner />
-    <Wrapper />
-    </>
   )
 }
 
